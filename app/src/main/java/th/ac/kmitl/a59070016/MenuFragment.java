@@ -53,7 +53,7 @@ public class MenuFragment extends Fragment {
                 if(_menu.equals("PROFILE SETUP")){
 
                 }else if(_menu.equals("MY FRIENDS")){
-                  
+
                 }else if(_menu.equals("SIGN OUT")){
                     getActivity().getSupportFragmentManager().beginTransaction()
                             .replace(R.id.main_view, new LoginFragment()).addToBackStack(null).commit();
